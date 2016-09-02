@@ -1,0 +1,175 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:shrinkColumns="*"
+    android:stretchColumns="*"
+    tools:context=".fragments.NoteFragment">
+
+    <TableRow
+        android:layout_marginTop="50dp"
+        android:background="@android:color/black"
+        android:gravity="center">
+
+        <ImageView
+
+            android:layout_width="50dp"
+            android:layout_height="90dp"
+            android:gravity="center"
+            android:src="@drawable/notes" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="50dp">
+
+    </TableRow>
+
+    <TableRow android:layout_marginTop="0dp">
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:text="Library"
+            android:textSize="19dp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:padding="0dp">
+
+        <Button
+            android:id="@+id/notesButton1"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:onClick="route()"
+            android:padding="20dp"
+            android:text="First Semester"
+            android:textSize="14dp" />
+
+        <Button
+            android:id="@+id/notesButton2"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:onClick="route()"
+            android:padding="20dp"
+            android:text="SECOND SEMESTER"
+            android:textSize="14dp"
+
+            />
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="13dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/notesButton3"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="THIRD SEMESTER"
+            android:textSize="14dp" />
+
+        <Button
+            android:id="@+id/notesButton4"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="FOURTH SEMESTER"
+            android:textSize="14dp" />
+
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="13dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/notesButton5"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:animateOnClick="true"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="FIFTH SEMESTER"
+            android:textSize="14dp" />
+
+        <Button
+            android:id="@+id/notesButton6"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:animateOnClick="true"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="SIXTH SEMESTER"
+            android:textSize="14dp" />
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="13dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/notesButton7"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:animateOnClick="true"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="SEVENTH SEMESTER"
+            android:textSize="14dp" />
+
+        <Button
+            android:id="@+id/notesButton8"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:animateOnClick="true"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="EIGHTH SEMESTER"
+            android:textSize="14dp" />
+    </TableRow>
+
+    <TableRow>
+
+        <View
+            android:layout_marginBottom="80dp"
+            android:layout_span="2">
+
+        </View>
+    </TableRow>
+
+</TableLayout>

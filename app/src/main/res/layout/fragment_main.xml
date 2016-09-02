@@ -1,0 +1,92 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:shrinkColumns="*"
+    android:stretchColumns="*"
+    tools:context=".fragments.MainFragment">
+
+
+    <TableRow android:layout_marginTop="60dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:layout_span="3"
+            android:gravity="center"
+            android:text="Account Details"
+            android:textSize="25dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"></TableRow>
+
+    <TableRow>
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="32dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="55dp"
+            android:layout_height="32dp"
+            android:gravity="left"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textSize="18dp" />
+
+    </TableRow>
+
+    <TableRow android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="32dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/emailprofile"
+            android:layout_height="32dp"
+            android:gravity="left"
+            android:textSize="18dp" />
+
+    </TableRow>
+
+    <!-- <TableRow
+         android:layout_marginTop="10dp">
+         <ImageView
+             android:layout_height="32dp"
+             android:layout_width="55dp"
+             android:src="@mipmap/phone"/>
+         <TextView
+             android:layout_height="32dp"
+             android:gravity="left"
+             android:text="Phone no."
+             android:textSize="18dp"
+             />
+         <TextView
+             android:layout_height="32dp"
+             android:gravity="left"
+             android:text="9841789233"
+             android:textSize="18dp"
+             />
+
+     </TableRow>
+     <TableRow
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_marginBottom="330dp">
+
+         <View
+             style="@style/lineshadow"
+             android:background="@drawable/line2"
+             android:layout_span="3"></View>
+     </TableRow>-->
+
+</TableLayout>
